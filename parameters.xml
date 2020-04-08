@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="Suite">
+
+
+	<parameter name="url" value="http://www.facebook.com"></parameter>
+	<parameter name="env" value="qa"></parameter>
+
+	<test name="Test">
+		<classes>
+			<class name="com.testng.dataprovider.DataProviderDemo2" />
+		</classes>
+	</test>
+
+
+</suite> 

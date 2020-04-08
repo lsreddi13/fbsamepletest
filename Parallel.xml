@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<!-- <suite parallel="false" name="Suite"> -->
+<!-- <suite name="My suite" parallel="methods" thread-count="5"> -->
+<suite name="My suite" parallel="tests" thread-count="5">
+
+	<parameter name="url" value="http://www.facebook.com"></parameter>
+	<test name="Test1">
+		<classes>
+			<class name="com.testng.dataprovider.parallelTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="com.testng.dataprovider.parallelTest" />
+		</classes>
+	</test>
+
+</suite> 

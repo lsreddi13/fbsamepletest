@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Regression">
+				</include>
+				<exclude name="smoke" />
+			</run>
+		</groups>
+		<classes>
+
+			<!-- <class name="com.demo.testNG.SelectProdcut_Amazon"/> -->
+
+			<class name="com.demo.testNG.FaceBook" />
+			<class name="com.demo.testNG.Fb" />
+			<class name="com.demo.testNG.InvocationCountDemo" />
+			<class name="com.demo.testNG.SelectProdcut_AmazonBackup" />
+			<class name="com.demo.testNG.SelectProdcut_Amazon" />
+			<class name="com.demo.testNG.TestNGDemo1" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
